@@ -1,0 +1,30 @@
+Key: Description
+Content-Type: application/json; charset=UTF-8 
+Response's media type
+
+Vary: Origin X-Origin Referer
+determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one
+
+Content-Encoding: gzip
+encoding method applied to entity body
+
+Date: Fri, 30 Jan 2026 02:37:40 GMT
+date and time request was sent
+
+Server: ESF
+information about how server handles requests
+
+X-XSS-Protection: 0
+Stops page from loading when they detect reflected cross-site scripting attacks
+
+X-Frame-Options: SAMEORIGIN
+Used to avoid clickjacking attacks
+
+X-Content-Type-Options: nosniff
+Used to opt out of MIME type sniffing a response away from the declared content-type
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+alternative path to reach the server
+
+Transfer-Encoding: chunked
+Specifies the form of encoding used to transfer entity to user
